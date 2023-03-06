@@ -1,3 +1,12 @@
+# [Curso de React: lidando com arquivos estáticos](https://cursos.alura.com.br/course/react-arquivos-estaticos)
+
+Na aula 1, aprende-se como:
+* Criar projetos usando Create React App;
+* Vimos como podemos usar templates, como typescript para criar projetos com CRA e depois removemos o que não será utilizado neste projeto;
+* Usar CSS Modules com TypeScript e Sass;
+* Aplicamos estilos escritos em Sass via CSS Modules e adicionamos a capacidade do Visual Studio Code oferecer autocomplete dos módulos de estilos com typescript-plugin-css-modules.
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
