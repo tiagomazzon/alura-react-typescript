@@ -6,6 +6,28 @@ Na aula 1, aprende-se como:
 * Usar CSS Modules com TypeScript e Sass;
 * Aplicamos estilos escritos em Sass via CSS Modules e adicionamos a capacidade do Visual Studio Code oferecer autocomplete dos módulos de estilos com typescript-plugin-css-modules.
 
+Na aula 2, aprende-se como:
+* Importar um svg;
+    * Vimos como o webpack entende aquela string que fornecemos ao src da tag img e porque não funciona, então, aprendemos como importar um svg da forma correta.
+* Utilizar um svg como componente;
+    * Melhoramos a nossa logo alterando a tag img por um componente que se torna um svg no final.
+* Imports absolutos;
+    * Aprendemos como configurar e utilizar os imports absolutos para evitar voltar muitas pastas ao importar um arquivo.
+* Utilizar a biblioteca reset css para resetar o css;
+    * Resetamos os estilos da nossa página utilizando uma biblioteca chamada reset.css que nos ajuda a limpar os estilos padrões de cada elemento de acordo com cada navegador.
+
+Na aula 3, aprende-se como:
+* Importar fontes externas
+    * Aprendemos como importar fontes externas no nosso projeto utilizando o google fonts.
+* Utilizar o normalize.css
+    * Utilizamos o normalize.css para padronizar os estilos da página html em cada navegador.
+* Utilizar ícones
+    * Aprendemos como é fácil utilizar ícones com a biblioteca react-icons.
+* Ignorar arquivos para build
+    * Vimos como ignorar arquivos no momentos de build para que sejam utilizados apenas quando os chamar.
+* Criar variáveis css
+    * Criamos variáveis css para nos auxiliar na padronização dos estilos da página, evitando repetição e facilitando na manutenção de código.
+
 ---
 # Getting Started with Create React App
 
