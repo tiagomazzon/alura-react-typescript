@@ -28,6 +28,14 @@ Na aula 3, aprende-se como:
 * Criar variáveis css
     * Criamos variáveis css para nos auxiliar na padronização dos estilos da página, evitando repetição e facilitando na manutenção de código.
 
+Na aula 4, aprende-se como:
+* Inferir o tipo de um objeto
+    * O operador typeof nos permite inferir a tipagem de um objeto sem a necessidade de criar uma interface.
+* Manipulação de objetos
+    * Utilizamos [] em volta do nome da chave de um objeto quando o valor da chave é dinâmico.
+* Biblioteca classnames
+    * Essa biblioteca nos permite concatenar classes CSS utilizando sintaxe de objetos.
+
 ---
 # Getting Started with Create React App
 
