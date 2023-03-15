@@ -36,6 +36,14 @@ Na aula 4, aprende-se como:
 * Biblioteca classnames
     * Essa biblioteca nos permite concatenar classes CSS utilizando sintaxe de objetos.
 
+Na aula 5, aprende-se como:
+* Renderizar uma lista de componentes
+    * Podemos utilizar o spread operator para não precisar passar as props manualmente quando temos total controle do componente.
+* Utilizar a pasta public
+    * Arquivos estáticos que devem ser referenciados dinamicamente precisam estar dentro dessa pasta.
+* Gerar os arquivos utilizados em produção
+    * Com o comando npm run build podemos verificar quais arquivos estarão presentes no ambiente de produção.
+
 ---
 # Getting Started with Create React App
 
