@@ -44,6 +44,14 @@ Na aula 5, aprende-se como:
 * Gerar os arquivos utilizados em produção
     * Com o comando npm run build podemos verificar quais arquivos estarão presentes no ambiente de produção.
 
+Na aula 6, aprende-se como:
+* Buscar com expressão regular
+    * Utilizar expressões regulares em buscas de textos.
+* Manipular elementos de uma lista
+    * Alterar a quantidade ou ordenar os elementos de uma lista com métodos filter e sort.
+* Tipar o useState
+    * Escrever useState<Tipo> para tipar o state e o setState.
+
 ---
 # Getting Started with Create React App
 
