@@ -6,6 +6,13 @@ Na aula 1, aprende-se:
 * Como corrigir erros de código seguindo as regras da configuração;
 * Criar a página de início da aplicação.
 
+Na aula 2, aprende-se:
+* Separar os dados do cardápio para uma pasta separada;
+* BrowserRouter e HashRouter;
+  * Diferença entre BrowserRouter e HashRouter.
+* Routes;
+  * Utilizar o routes para alternar entre rotas.
+
 ---
 # Getting Started with Create React App
 
