@@ -13,6 +13,12 @@ Na aula 2, aprende-se:
 * Routes;
   * Utilizar o routes para alternar entre rotas.
 
+Na aula 3, aprende-se:
+* Reutilizar o menu;
+* Reaproveitar o header utilizando o react-router-dom;
+* Utilizar o componente Link;
+* Fazer a página padrão.
+
 ---
 # Getting Started with Create React App
 
