@@ -19,6 +19,12 @@ Na aula 3, aprende-se:
 * Utilizar o componente Link;
 * Fazer a página padrão.
 
+Na aula 4, aprende-se:
+* Desenvolver um tema para a aplicação;
+* Aplicar o componente Outlet do react-router-dom;
+* Utilizar o hook useNavigate para navegar entre rotas;
+* Criar uma tela not found para páginas não encontradas.
+
 ---
 # Getting Started with Create React App
 
