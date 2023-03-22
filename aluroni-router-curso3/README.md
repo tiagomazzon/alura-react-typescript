@@ -25,6 +25,19 @@ Na aula 4, aprende-se:
 * Utilizar o hook useNavigate para navegar entre rotas;
 * Criar uma tela not found para páginas não encontradas.
 
+Na aula 5, aprende-se:
+* Criar a rota pratos;
+* Passar parâmetros na rota;
+* Criar detalhes do prato;
+* Utilizar o hook useLocation;
+* Passar estados entre rotas;
+* Refatorar tags.
+
+Na aula 6, aprende-se:
+* Acrescentar a tela NotFound na tela de detalhes;
+* Utilizar o componente Redirect;
+* Resolver o header.
+
 ---
 # Getting Started with Create React App
 

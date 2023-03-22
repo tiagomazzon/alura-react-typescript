@@ -16,9 +16,9 @@
   &__list {
     align-items: center;
     display: flex;
-    list-style-type: none;
   }
   &__link {
+    list-style-type: none;
     padding: 0 20px;
     a {
       color: $dark;

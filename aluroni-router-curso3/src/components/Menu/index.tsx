@@ -18,8 +18,8 @@ export default function Menu() {
       <Logo />
       <ul className={styles.menu__list}>
         {rotas.map((rota, index) => (
-          <li key={index}>
-            <Link to={rota.to} className={styles.menu__link}>
+          <li key={index} className={styles.menu__link}>
+            <Link to={rota.to}>
               {rota.label}
             </Link>
           </li>
