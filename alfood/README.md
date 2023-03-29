@@ -11,6 +11,21 @@ Na aula 2, aprende-se:
 * Implementamos a listagem de restaurantes realizando uma requisição GET;
 * Criamos a rotina de cadastro de restaurantes com o verbo HTTP POST.
 
+Na aula 3, aprende-se:
+* Realizamos requisições utilizando os verbos PUT e DELETE;
+* Enviamos parâmetros em requisições GET;
+* Montamos um formulário de busca de restaurantes.
+
+Na aula 4, aprende-se:
+* Organizamos o layout com elementos do MUI;
+* Organizamos o nosso código, centralizando a criação de um cliente do axios;
+* Utilizamos a ordenação de restaurantes da API.
+
+Na aula 5, aprende-se:
+* Aninhamos as rotas da área administrativa;
+* Organizamos o layout utilizando o <Outlet />;
+* Descobrimos que podemos usar async e await para trabalhar com promessas.
+
 ---
 ![Integrando seu projeto React com APIs](thumbnail.png)
 
