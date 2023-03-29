@@ -28,6 +28,12 @@ const AdministracaoRestaurantes = () => {
             <TableCell>
               Nome
             </TableCell>
+            <TableCell>
+              Editar
+            </TableCell>
+            <TableCell>
+              Excluir
+            </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
