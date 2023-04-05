@@ -1,7 +1,7 @@
 import { Button, FormControl, InputLabel, MenuItem, Select, TextField, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { ChangeEvent, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import http from "../../../http";
 import IPrato from "../../../interfaces/IPrato";
 import IRestaurante from "../../../interfaces/IRestaurante";
@@ -10,6 +10,7 @@ import ITag from "../../../interfaces/ITag";
 const FormularioPrato = () => {
 
   const parametros = useParams();
+  const navigate = useNavigate();
   const [nomePrato, setNomePrato] = useState('');
   const [descricao, setDescricao] = useState('');
   const [tags, setTags] = useState<ITag[]>([]);
@@ -30,26 +31,43 @@ const FormularioPrato = () => {
     if (imagem) {
       formData.append('imagem', imagem);
     }
+
+    let selectedMethod = '';
+    let pratosURL = '';
+
+    if (parametros.id) {
+      selectedMethod = 'PUT';
+      pratosURL = `pratos/${parametros.id}/`;
+    }
+    else {
+      selectedMethod = 'POST';
+      pratosURL = 'pratos/';
+    }
+
     http.request({
-      url: 'pratos/',
-      method: 'POST',
+      url: pratosURL,
+      method: selectedMethod,
       headers: {
         'Content-Type': 'multipart/form-data'
       },
       data: formData
     })
-    .then(resposta => {
-      setNomePrato('');
-      setDescricao('');
-      setTag('');
-      setRestaurante('');
-      alert('Prato cadastrado com sucesso')
-    })
-    .catch(erro => console.log(erro));
+      .then(resposta => {
+        setNomePrato('');
+        setDescricao('');
+        setTag('');
+        setRestaurante('');
+        setImagem(null);
+        alert(`Prato ${selectedMethod === 'PUT' ? 'atualizado' : 'cadastrado'} com sucesso`)
+      })
+      .then(() => {
+        navigate('/admin/pratos')
+      })    
+      .catch(erro => console.log(erro));
   };
 
   const selecionarArquivo = (evento: ChangeEvent<HTMLInputElement>) => {
-    if ( evento.target.files?.length) {
+    if (evento.target.files?.length) {
       setImagem(evento.target.files[0]);
     } else {
       setImagem(null);
@@ -59,7 +77,13 @@ const FormularioPrato = () => {
   useEffect(() => {
     if (parametros.id) {
       http.get<IPrato>(`pratos/${parametros.id}/`)
-        .then(resposta => setNomePrato(resposta.data.nome));
+        .then(resposta => {
+          setNomePrato(resposta.data.nome);
+          setDescricao(resposta.data.descricao);
+          setTag(resposta.data.tag);
+          setRestaurante(resposta.data.restaurante.toString());
+          //setImagem(resposta.data.imagem);
+        });
     }
   }, [parametros]);
 
