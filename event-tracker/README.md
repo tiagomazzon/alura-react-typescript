@@ -10,6 +10,16 @@ Na aula 1, aprende-se como:
 * Modificar atoms
   * Nós utilizamos o hook useSetRecoilState para adicionar novos itens à lista de eventos.
 
+Na aula 2, aprende-se como:
+* Remover eventos do estado
+  * Existem várias formas de operar listas, e nós removemos utilizando o método filter. Se quiser se aprofundar mais nesses tipos de algoritmos, vale a pena conhecer os seguintes métodos:
+    * indexOf: para obter um determinado índice de um elemento num array.
+    * slice: para obter, a partir de um índice ou intervalo, uma quantidade N de elementos.
+* Atualizar um evento específico
+  * Vimos que a lista que recebemos é imutável, mas podemos definir uma nova lista reposicionando o evento alterado.
+* Hook customizado
+  * Criamos um hook reaproveitável e responsável por atualizar um evento, inclusive encapsulando o recoil.
+
 ---
 # Getting Started with Create React App
 
