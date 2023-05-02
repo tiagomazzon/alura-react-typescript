@@ -26,6 +26,12 @@ Na aula 3, aprende-se como:
 * Aumentar a coesão
   * Ao remover a responsabilidade de alterar o estado para os hooks, nossos componentes ficam mais coesos e não precisam se preocupar com as implementações relacionadas a manipular o estado.
 
+Na aula 4, aprende-se como:
+* Derivar estados com seletores
+  * Mantendo assim a responsabilidade bem definida para cada parte do sistema.
+* Adicionar funcionalidades de forma incremental
+  * Primeiro, colocamos o filtro para funcionar. Na sequência, melhoramos a implementação e extraímos a lógica.
+
 ---
 # Getting Started with Create React App
 
