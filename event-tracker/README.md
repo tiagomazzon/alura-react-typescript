@@ -1,5 +1,13 @@
 # [Curso React: gerenciando estado com Recoil](https://cursos.alura.com.br/course/react-gerenciando-estado-recoil)
 
+## Atenção
+
+Rodar o comando no console para habilitar um emulador de API
+
+`json-server --watch db.json -p 8080`
+
+## Conteúdo 
+
 Na aula 1, aprende-se como:
 * Analisar e entender código que outras pessoas desenvolveram
   * O dia a dia de pessoas desenvolvedoras requer muita leitura de código, e não somente escrever coisas novas.
@@ -31,6 +39,14 @@ Na aula 4, aprende-se como:
   * Mantendo assim a responsabilidade bem definida para cada parte do sistema.
 * Adicionar funcionalidades de forma incremental
   * Primeiro, colocamos o filtro para funcionar. Na sequência, melhoramos a implementação e extraímos a lógica.
+
+Na aula 5, aprende-se como:
+* Criar seletores assíncronos
+  * Integrando assim o recoil com uma API REST.
+* Definir um valor inicial dinâmico para o átomo
+  * Ao definir o seletor async como valor padrão para o átomo, todos os eventos iniciais passam a vir da API.
+* Criar uma ferramenta de depuração
+  * Agora fica mais simples de entender as mudanças no estado, uma vez que implementamos um componente que faz log cada vez que o estado é manipulado.
 
 ---
 # Getting Started with Create React App
